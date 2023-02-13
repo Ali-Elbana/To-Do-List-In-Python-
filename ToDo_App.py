@@ -24,15 +24,15 @@ def main():
             
             TD.add_task()
     
-        if entered_choice == print_todo :
+        elif entered_choice == print_todo :
                 
             TD.print_ToDoList()
                 
-        if entered_choice == task_done :
+        elif entered_choice == task_done :
                 
             TD.task_done()
                   
-        if entered_choice == print_done :
+        elif entered_choice == print_done :
                 
             TD.print_DoneList()
            
